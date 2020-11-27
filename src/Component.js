@@ -26,11 +26,13 @@ export default function TextButtons() {
       <Button>Default</Button>
       <Button color="primary">Primary</Button>
       <Button color="secondary">Secondary</Button>
+
       <Button href="#text-buttons" color="primary">
         Log in
       </Button>
+
      {/* */}
-    <img src={logo} width="1000" height="250" className="App-logo" alt="logo"  />
+    
     </div>
     </center>
    

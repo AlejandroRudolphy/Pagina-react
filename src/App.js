@@ -7,9 +7,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
+   
     <div className="App">
-    
+     
         <TextButtons/>
+        <img src={logo} width="1000" height="250" className="App-logo" alt="logo"  />
+    
         <SignInSide/>
       
     </div>
