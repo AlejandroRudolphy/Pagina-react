@@ -12,11 +12,11 @@ export default class Video extends Component {
         </h1>
         
         <ReactPlayer
-          url='https://www.youtube.com/watchttps://www.youtube.com/watch?v=MEW4GczA5PM&list=PLI02DaZwudGyBQJmi0tz-KjtK_dZzRU9-&index=15h?v=rnwlWn603g4'
+          url='https://www.youtube.com/watch?v=zsCD5XCu6CM'
           className='react-player'
 
           width='650px'
-          height='550px'
+          height='500px'
         />
         </center>
       </div>
