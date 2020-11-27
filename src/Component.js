@@ -1,0 +1,39 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import logo from './logo.svg';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
+}));
+
+export default function TextButtons() {
+  const classes = useStyles();
+
+  return (
+
+    <center>
+    <div>
+    Welcome 
+    </div>
+    <div 
+      className={classes.root}>
+      <Button>Default</Button>
+      <Button color="primary">Primary</Button>
+      <Button color="secondary">Secondary</Button>
+      <Button href="#text-buttons" color="primary">
+        Log in
+      </Button>
+     {/* */}
+    <img src={logo} width="1000" height="250" className="App-logo" alt="logo"  />
+    </div>
+    </center>
+   
+  );
+}
+
