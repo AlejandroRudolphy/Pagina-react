@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://www.matanzaspropiedades.cl/wp-content/uploads/2020/05/a4cc8464-4f24-4cf4-b6ff-ca7c3bf24374-1.jpg)',
+    backgroundImage: 'url(https://source.unsplash.com/random)',
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
@@ -128,7 +128,7 @@ export default function SignInSide() {
            
             </Grid>
             <Box mt={5}>
-              <Copyright />
+            
             </Box>
           </form>
         </div>
