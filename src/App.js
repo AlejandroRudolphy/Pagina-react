@@ -1,13 +1,9 @@
 import './App.css';
-import TextButtons from './Component'
-import SignInSide from './Register'
 import { Segment } from 'semantic-ui-react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './Nav';
 import Album from './Album';
 import Register from './Register';
-import Form from './Form'
-import CircularIntegration from './Terms'
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -15,8 +11,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
-import MoreIcon from '@material-ui/icons/MoreVert';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
