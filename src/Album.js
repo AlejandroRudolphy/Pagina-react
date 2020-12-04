@@ -14,19 +14,6 @@ import { useState } from 'react';
 
 
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -63,7 +50,6 @@ const cards = [1];
 
 export default function Album() {
   const classes = useStyles();
-  const [url, setUrl] = useState('')
 
 const DrogbaBayern = e => {
     e.preventDefault()
